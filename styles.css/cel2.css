@@ -1,0 +1,60 @@
+h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Add new styles for image transition */
+  .image-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+  }
+  
+  /* Define the fade-in animation */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the fade-in animation with a duration of 2 seconds for each picture */
+  .image-transition:nth-child(1) {
+    animation: fade-in 2s forwards;
+  }
+  
+  .image-transition:nth-child(2) {
+    animation: fade-in 2s 2s forwards;
+  }
+  
+  .image-transition:nth-child(3) {
+    animation: fade-in 2s 4s forwards;
+  }
+  
+  .image-transition:nth-child(4) {
+    animation: fade-in 2s 6s forwards;
+  }
+  
+  .image-transition:nth-child(5) {
+    animation: fade-in 2s 8s forwards;
+  }
+  
+  /* Apply the colorChange animation to the body */
+  body {
+    animation: colorChange 12s linear infinite;
+  }
+  
+  /* Define the colorChange animation */
+  @keyframes colorChange {
+    0% { background-color: red; } /* Start with red */
+    25% { background-color: blue; } /* Change to blue */
+    50% { background-color: green; } /* Change to green */
+    75% { background-color: yellow; } /* Change to yellow */
+    100% { background-color: red; } /* Back to red */
+  }

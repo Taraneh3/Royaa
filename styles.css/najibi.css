@@ -1,0 +1,22 @@
+h1 {
+    font-size: 100px; /* Adjust the font size as needed */
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeInOut 6s infinite; /* Adjust the duration for a slower transition */
+  }
+  
+  @keyframes fadeInOut {
+    0%, 16.666% {
+      opacity: 1;
+    }
+    33.333%, 100% {
+      opacity: 0;
+    }
+  }

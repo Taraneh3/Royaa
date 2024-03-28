@@ -1,0 +1,36 @@
+body{
+    background-image: url('../man-roya-dabirestan.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    padding-top: 50px
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+button:hover{
+    background-color: blue;
+}
+button{
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+}

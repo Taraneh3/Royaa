@@ -1,0 +1,18 @@
+body {
+    background-color: blue; /* Set background color to blue */
+  }
+  
+  .box {
+    background-color: green; /* Set box background color to green */
+    padding: 10px; /* Add padding to the box */
+    margin: 10px; /* Add margin to separate the boxes */
+  }
+  
+  .box a, .box h1 {
+    color: black; /* Set text color to black */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  h1 {
+    text-align: center; /* Center align the h1 element */
+  }
